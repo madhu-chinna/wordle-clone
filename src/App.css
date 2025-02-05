@@ -1,0 +1,63 @@
+body {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f4f4f4;
+  transition: background 0.3s ease, color 0.3s ease;
+  color: black;
+  background: linear-gradient(to bottom right, #f4f4f4, #eaeaea);
+}
+
+/* Ensure Dark Mode applies globally */
+.dark-mode {
+  /* background: #222 !important; */
+  color: white !important;
+  background: linear-gradient(to bottom right, #1a1a1a, #222);
+}
+
+.toggle-btn,
+button {
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.toggle-btn:hover,
+button:hover {
+  transform: scale(1.05);
+}
+
+.dark-mode .toggle-btn:hover {
+  background: #ffcc00;
+}
+
+.header-conatiner{
+  text-align: center;
+}
+
+.instruction {
+  font-size: 16px;
+  margin-top: 5px;
+  color: #666;
+}
+
+.dark-mode .instruction {
+  color: #ccc;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.dark-mode h1 {
+  color: #ffb400;
+}

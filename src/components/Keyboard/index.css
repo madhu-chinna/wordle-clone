@@ -1,0 +1,17 @@
+.keyboard {
+    margin-top: 20px;
+  }
+  
+  .keyboard button {
+    margin: 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    background: #ddd;
+  }
+  
+  .keyboard button:hover {
+    background: #bbb;
+  }
+  

@@ -1,0 +1,33 @@
+.message-container {
+  margin-top: 20px;
+}
+
+.message {
+  font-size: 18px;
+  font-weight: bold;
+  color: black; /* Default color for light mode */
+  background: #f0f0f0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.dark-mode .message {
+  color: white; /* Ensures visibility in dark mode */
+  background: #333; /* Adjust background for dark mode */
+}
+
+button {
+  background: #007bff;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.dark-mode button {
+  background: #ffb400;
+  color: black;
+}
