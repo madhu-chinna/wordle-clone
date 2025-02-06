@@ -1,4 +1,46 @@
-# Getting Started with Create React App
+# Wordle Clone 🎯
+
+A simple Wordle-like game built using **ReactJS**. The player has **6 attempts** to guess a **5-letter word**, with color-coded feedback for each guess.
+
+## 🚀 Live Demo
+[Click Here to Play](https://wordle-clone-seven-murex.vercel.app/) 
+
+---
+
+## 📌 Features
+✅ **Guess the Word:** You have 6 attempts to guess a 5-letter word.  
+✅ **Color Feedback:**
+   - 🟩 **Green**: Correct letter in the correct position.  
+   - 🟨 **Yellow**: Correct letter in the wrong position.  
+   - ⬜ **Gray**: Incorrect letter.  
+✅ **Animations:** Letter flip effect when submitting a guess.  
+✅ **Dark Mode Toggle:** Switch between **light** and **dark** mode.  
+✅ **Responsive UI:** Works on both **mobile and desktop** screens.  
+✅ **New Game Button:** Restart anytime with a new word.  
+
+---
+
+## 🛠️ Tech Stack
+- **Frontend:** ReactJS, CSS  
+- **State Management:** useState  
+- **Styling:** CSS (Separate styles for each component)  
+
+---
+
+## 📥 Installation & Setup
+
+### 1️⃣ Clone the Repository  
+Open your terminal and run:
+```sh
+git clone https://github.com/madhu-chinna/wordle-clone
+cd wordle-clone
+
+npm install
+npm start
+
+
+
+<!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -67,4 +109,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify) -->
